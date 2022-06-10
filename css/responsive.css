@@ -1,0 +1,124 @@
+@media (min-width: 320px) and (max-width: 575px) {
+    .banner__text h1 {
+        font-size: 44px;
+    }
+    .banner__text p {
+        font-size: 18px;
+    }
+    .banner__btn a {
+        width: 150px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #features .title__text h1 {
+        font-size: 30px;
+    }
+    .features__text p {
+        padding: 0 15px;
+        font-size: 14px;
+    }
+    .features__cnt{
+        flex-basis: 100%;
+    }
+    .features__img{
+        flex-basis: 100%;
+    }
+    .features__img img{
+        width: 100%;
+    }
+
+
+    .title__text h1 {
+        font-size: 30px;
+    }
+    .title__text {
+        padding-bottom: 40px;
+    }
+    .single__service{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .service__desc p{
+        font-size: 12px;
+    }
+    hr{
+        margin: 5px auto;
+    }
+
+    .single__service:hover .service__desc{
+        bottom: 25% !important;
+    }
+    .testimonial__col{
+        flex-basis: 100%;
+    }
+
+    .footer__left, .footer__right{
+        flex-basis: 100%;
+        font-size: 12px; 
+    }
+
+    .footer__img{
+        top: 25%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .banner__text h1 {
+        font-size: 80px;
+    }
+    #features .title__text h1 {
+        font-size: 40px;
+    }
+    .features__cnt{
+        flex-basis: 100%;
+    }
+    .features__img{
+        flex-basis: 100%;
+    }
+    .features__img img{
+        width: 100%;
+    }
+
+    .title__text h1 {
+        font-size: 40px;
+    }
+    .title__text {
+        padding-bottom: 50px;
+    }
+    .single__service{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .service__desc p{
+        font-size: 14px;
+    }
+    hr{
+        margin: 5px auto;
+    }
+
+    .single__service:hover .service__desc{
+        bottom: 40% !important;
+    }
+    .testimonial__col{
+        flex-basis: 100%;
+    }
+    .footer__img {
+        top: 27%;
+    }
+    .footer__left, .footer__right{
+        flex-basis: 100%;
+        font-size: 14px; 
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner__text h1 {
+        font-size: 90px;
+    }
+    .single__service:hover .service__desc{
+        bottom: 30% !important;
+    }
+    .service__desc p{
+        font-size: 12px;
+    }
+}
